@@ -95,4 +95,50 @@ ul li img {
 ul li:hover .overlay-imagem-link {
     opacity: 1;
 }
+@media screen and (max-width: 767px) {
+        
+    header {
+        background-image: url(C:\JQuery\images\painel.jpg);
+        background-color: #3d35ad;
+        padding: 50px 0;
+        border-bottom: 20px solid #656cc7;
+        }
+        header > button {
+            display: block;
+            position: absolute;
+            margin-top: 50px;
+            padding: 16px;
+        }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        ul li {
+            max-width: 50%;
+        }
+}
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        header {
+            background-image: url(C:\JQuery\images\painel.jpg);
+            background-color: #3d35ad;
+            padding: 50px 0;
+            border-bottom: 20px solid #656cc7;
+            }
+            header > button {
+                display: block;
+                position: absolute;
+                margin-top: 50px;
+                padding: 16px;
+            }
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            ul li {
+                max-width: 50%;
+            }
+        
+    }
+
+    
 
